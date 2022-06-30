@@ -1,5 +1,13 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 *{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     list-style-type: none;
 }
 body{
@@ -16,17 +24,31 @@ header{
     margin-left: auto;
 }
 .header-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 .header-list-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .header-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0;
     padding: 0;
 }
@@ -67,8 +89,12 @@ header{
 }
 .help-box{
     padding-top: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .help-wrapper {
     width: 620px;
@@ -98,9 +124,15 @@ header{
 
 .help-link {
     padding: 12px 34px 12px 34px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -121,6 +153,8 @@ header{
     background-size: cover;
 }
 .help-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 105px;
 }
@@ -147,8 +181,12 @@ header{
     color: #373737;
 }
 .feature-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 90px;
     margin-bottom: 110px;
 }
@@ -160,9 +198,15 @@ header{
 }
 
 .dots-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .dots {
     margin-left: 21px;
@@ -209,9 +253,14 @@ header{
     color: #7D7D7D;
 }
 .services-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-bottom: 125px;
 }
 .services-item {
@@ -219,7 +268,8 @@ header{
     margin-right: 30px;
     margin-bottom: 30px;
     padding: 25px;
-    box-shadow: 0px 0px 77px #0000000f;
+    -webkit-box-shadow: 0px 0px 77px #0000000f;
+            box-shadow: 0px 0px 77px #0000000f;
     border-radius: 15px;
 }
 .services-item:first-child::before{
@@ -333,6 +383,8 @@ header{
     color: #7D7D7D;    
 }
 .news-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0;
     padding: 0;
@@ -341,7 +393,8 @@ header{
     width: 344px;
     margin: 23px;
     padding-left: 0;
-    box-shadow: 0px 6px 42px #0000001b;
+    -webkit-box-shadow: 0px 6px 42px #0000001b;
+            box-shadow: 0px 6px 42px #0000001b;
     border-radius: 10px;
 }
 .news-item-img {
@@ -352,8 +405,12 @@ header{
     padding: 15px 15px 15px 20px;
 }
 .news-date {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
@@ -378,8 +435,12 @@ header{
     color: #252525;    
 }
 .join-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 150px;
 }
 
@@ -415,15 +476,20 @@ header{
     color: #7D7D7D;    
 }
 .univercity-events-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 100px 0;
 }
 .macquarie {
     width: 550px;
     margin: 10px;
     padding: 30px 25px 30px 25px;
-    box-shadow: 0px 0px 77px #0000000f;
+    -webkit-box-shadow: 0px 0px 77px #0000000f;
+            box-shadow: 0px 0px 77px #0000000f;
     border-radius: 15px;
 }
 .macquarie-head-left::before{
@@ -445,12 +511,20 @@ header{
     background-repeat: no-repeat;
 }
 .macquarie-head-left{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 .macquarie-head-right{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
 }
 .macquarie-head {
     margin-top: 0;
@@ -473,12 +547,20 @@ header{
     color: #37474fb8;
 }
 .macquarie-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .learn {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-decoration: none;
     color: #717CFF;
 }
@@ -492,7 +574,9 @@ header{
     background-size: contain;
 }
 .macquarie-time {
-    display: flex;align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
@@ -541,6 +625,8 @@ header{
     text-align: center;    
 }
 .countries-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 0;
 }
@@ -601,6 +687,8 @@ header{
 }
 
 .testimonia-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .testimonia-item {
@@ -610,12 +698,20 @@ header{
     padding: 40px 35px;
 }
 .testimonia-item-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .testimonia-item-top-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .testimonia-item-top::before {
     margin-right: 20px;
@@ -673,8 +769,12 @@ header{
     padding-bottom: 80px;
 }
 .dreams-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .dreams-head {
     margin: 0;
@@ -691,9 +791,15 @@ footer{
     background-color: #717CFF;
 }
 .footer-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-top: 65px;
     padding-bottom: 45px;
 }
@@ -721,9 +827,15 @@ footer{
     color: #EEEEEE;
 }
 .footer-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .about-us {
     margin-bottom: 0;
@@ -755,9 +867,14 @@ footer{
     color: #EEEEEE;
 }
 .scl-seti {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-self: flex-end;
-    align-items: center;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-left: 100px;
 }
 .scl-seti-item {
